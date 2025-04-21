@@ -1,0 +1,9 @@
+[package]
+name = "openvino_xml_operator_extractor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+xmltree = "0.10"
+clipboard = "0.5.0"
